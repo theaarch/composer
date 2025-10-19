@@ -27,6 +27,8 @@ jobs:
         run: composer create-project --keep-vcs --no-dev composer/satis:dev-main satis
 
       - name: Build Satis
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           cd satis
           php bin/satis build ../composer.json ../public --no-interaction --verbose
