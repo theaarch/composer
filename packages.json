@@ -1,12 +1,13 @@
 {
     "packages": [],
     "includes": {
-        "include/all$f906c4a93a2909fcce5c8eabcc83a91dd464b3dd.json": {
-            "sha1": "f906c4a93a2909fcce5c8eabcc83a91dd464b3dd"
+        "include/all$9a14cb19e6853b5fc30de88a65e0dd5bba4a2867.json": {
+            "sha1": "9a14cb19e6853b5fc30de88a65e0dd5bba4a2867"
         }
     },
     "metadata-url": "/composer/p2/%package%.json",
     "available-packages": [
+        "theaarch/game",
         "theaarch/laravel-payment-manager",
         "theaarch64/laravel-filter"
     ]

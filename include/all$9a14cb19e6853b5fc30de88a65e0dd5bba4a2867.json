@@ -1,5 +1,71 @@
 {
     "packages": {
+        "theaarch/game": {
+            "dev-main": {
+                "name": "theaarch/game",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:theaarch/game-manager.git",
+                    "reference": "c860e96abd61c920ca1fd9f60b02a94c1b30602d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/theaarch/game-manager/zipball/c860e96abd61c920ca1fd9f60b02a94c1b30602d",
+                    "reference": "c860e96abd61c920ca1fd9f60b02a94c1b30602d",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "illuminate/contracts": "^10.0|^11.0|^12.0",
+                    "illuminate/http": "^10.0|^11.0|^12.0",
+                    "illuminate/support": "^10.0|^11.0|^12.0",
+                    "php": "^8.1"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.0",
+                    "mockery/mockery": "^1.6",
+                    "orchestra/testbench": "^8.0|^9.0|^10.0",
+                    "pestphp/pest": "^2.0|^3.0|^4.0",
+                    "pestphp/pest-plugin-laravel": "^2.0|^3.0|^4.0"
+                },
+                "time": "2025-10-16T01:56:24+00:00",
+                "default-branch": true,
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Theaarch\\Game\\GameServiceProvider"
+                        ],
+                        "aliases": {
+                            "Game": "Theaarch\\Game\\Facades\\Game"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Theaarch\\Game\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "game.",
+                "keywords": [
+                    "game"
+                ],
+                "support": {
+                    "source": "https://github.com/theaarch/game-manager/tree/main",
+                    "issues": "https://github.com/theaarch/game-manager/issues"
+                }
+            }
+        },
         "theaarch/laravel-payment-manager": {
             "1.x-dev": {
                 "name": "theaarch/laravel-payment-manager",
