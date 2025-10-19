@@ -1,10 +1,12 @@
 {
     "packages": [],
     "includes": {
-        "include/all$96e5c0926e9d7f87094d1ba307e38ea76cd09c53.json": {
-            "sha1": "96e5c0926e9d7f87094d1ba307e38ea76cd09c53"
+        "include/all$56f723b9a2362e03faa8ffda7e537a7c3adb220f.json": {
+            "sha1": "56f723b9a2362e03faa8ffda7e537a7c3adb220f"
         }
     },
     "metadata-url": "/composer/p2/%package%.json",
-    "available-packages": []
+    "available-packages": [
+        "theaarch64/laravel-filter"
+    ]
 }
