@@ -12,10 +12,15 @@
         {
             "type": "vcs",
             "url": "git@github.com:theaarch/laravel-payment-manager.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:theaarch/game-manager.git"
         }
     ],
     "require": {
         "theaarch64/laravel-filter": "*",
-        "theaarch/laravel-payment-manager": "*"
+        "theaarch/laravel-payment-manager": "*",
+        "theaarch/game": "*"
     }
 }
