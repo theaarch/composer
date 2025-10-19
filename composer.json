@@ -11,12 +11,7 @@
         },
         {
             "type": "vcs",
-            "url": "git@github.com:theaarch/laravel-payment-manager.git",
-            "options": {
-                "github-oauth": {
-                    "github.com": "%env(GH_PAT)%"
-                }
-            }
+            "url": "git@github.com:theaarch/laravel-payment-manager.git"
         }
     ],
     "require": {
