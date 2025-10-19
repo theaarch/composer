@@ -5,8 +5,19 @@
         "sort-packages": true
     },
     "repositories": [
-        {"type": "vcs", "url": "https://github.com/theaarch/laravel-filter"},
-        {"type": "vcs", "url": "https://github.com/theaarch/laravel-payment-manager"}
+        {
+            "type": "vcs",
+            "url": "https://github.com/theaarch/laravel-filter"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/theaarch/laravel-payment-manager",
+            "options": {
+                "github-oauth": {
+                    "github.com": "%env(GH_PAT)%"
+                }
+            }
+        }
     ],
     "require": {
         "theaarch64/laravel-filter": "*",
