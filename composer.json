@@ -7,10 +7,6 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/theaarch/laravel-filter"
-        },
-        {
-            "type": "vcs",
             "url": "git@github.com:theaarch/laravel-payment-manager.git"
         },
         {
