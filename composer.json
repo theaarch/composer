@@ -12,6 +12,10 @@
         {
             "type": "vcs",
             "url": "git@github.com:theaarch/game-manager.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:theaarch/laravel-sharding.git"
         }
     ]
 }
