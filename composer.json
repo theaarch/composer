@@ -1,5 +1,5 @@
 {
-    "name": "theaarch/repository",
+    "name": "theaarch/composer",
     "homepage": "https://theaarch.github.io/composer",
     "config": {
         "sort-packages": true
