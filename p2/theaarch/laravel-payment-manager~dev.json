@@ -1,0 +1,123 @@
+{
+    "packages": {
+        "theaarch/laravel-payment-manager": [
+            {
+                "name": "theaarch/laravel-payment-manager",
+                "version": "1.x-dev",
+                "version_normalized": "1.9999999.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:theaarch/laravel-payment-manager.git",
+                    "reference": "8c982a14187a49d7ae6e0a9963f82a41ce0d587c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/theaarch/laravel-payment-manager/zipball/8c982a14187a49d7ae6e0a9963f82a41ce0d587c",
+                    "reference": "8c982a14187a49d7ae6e0a9963f82a41ce0d587c",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "illuminate/console": "^11.0|^12.0",
+                    "illuminate/contracts": "^11.0|^12.0",
+                    "illuminate/events": "^11.0|^12.0",
+                    "illuminate/http": "^11.0|^12.0",
+                    "illuminate/routing": "^11.0|^12.0",
+                    "illuminate/support": "^11.0|^12.0",
+                    "php": "^8.2.0"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.24",
+                    "orchestra/testbench": "^10.6",
+                    "pestphp/pest": "^4.0",
+                    "pestphp/pest-plugin-laravel": "^4.0"
+                },
+                "time": "2025-10-02T16:03:44+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Theaarch\\PaymentGateway\\PaymentGatewayServiceProvider"
+                        ],
+                        "aliases": {
+                            "PaymentGateway": "Theaarch\\PaymentGateway\\Facades\\PaymentGateway"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Theaarch\\PaymentGateway\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\": "tests/"
+                    }
+                },
+                "support": {
+                    "source": "https://github.com/theaarch/laravel-payment-manager/tree/1.x",
+                    "issues": "https://github.com/theaarch/laravel-payment-manager/issues"
+                }
+            },
+            {
+                "name": "theaarch/laravel-payment-manager",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:theaarch/laravel-payment-manager.git",
+                    "reference": "523966b8fe16f810c4e2ec5a592767ea8f32052f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/theaarch/laravel-payment-manager/zipball/523966b8fe16f810c4e2ec5a592767ea8f32052f",
+                    "reference": "523966b8fe16f810c4e2ec5a592767ea8f32052f",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "illuminate/console": "^11.0|^12.0",
+                    "illuminate/contracts": "^11.0|^12.0",
+                    "illuminate/events": "^11.0|^12.0",
+                    "illuminate/http": "^11.0|^12.0",
+                    "illuminate/routing": "^11.0|^12.0",
+                    "illuminate/support": "^11.0|^12.0",
+                    "php": "^8.2.0"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.24",
+                    "orchestra/testbench": "^10.6",
+                    "pestphp/pest": "^4.0",
+                    "pestphp/pest-plugin-laravel": "^4.0"
+                },
+                "time": "2025-10-02T16:08:23+00:00",
+                "default-branch": true,
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Theaarch\\PaymentManager\\PaymentServiceProvider"
+                        ],
+                        "aliases": {
+                            "Payment": "Theaarch\\PaymentManager\\Facades\\Payment"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Theaarch\\PaymentManager\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\": "tests/"
+                    }
+                },
+                "support": {
+                    "source": "https://github.com/theaarch/laravel-payment-manager/tree/main",
+                    "issues": "https://github.com/theaarch/laravel-payment-manager/issues"
+                }
+            }
+        ]
+    }
+}

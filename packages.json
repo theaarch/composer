@@ -1,12 +1,13 @@
 {
     "packages": [],
     "includes": {
-        "include/all$56f723b9a2362e03faa8ffda7e537a7c3adb220f.json": {
-            "sha1": "56f723b9a2362e03faa8ffda7e537a7c3adb220f"
+        "include/all$f906c4a93a2909fcce5c8eabcc83a91dd464b3dd.json": {
+            "sha1": "f906c4a93a2909fcce5c8eabcc83a91dd464b3dd"
         }
     },
     "metadata-url": "/composer/p2/%package%.json",
     "available-packages": [
+        "theaarch/laravel-payment-manager",
         "theaarch64/laravel-filter"
     ]
 }
