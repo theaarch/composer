@@ -11,6 +11,6 @@
         }
     ],
     "require": {
-        "theaarch/laravel-filter": "*"
+        "theaarch64/laravel-filter": "*"
     }
 }
