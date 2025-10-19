@@ -17,10 +17,5 @@
             "type": "vcs",
             "url": "git@github.com:theaarch/game-manager.git"
         }
-    ],
-    "require": {
-        "theaarch64/laravel-filter": "*",
-        "theaarch/laravel-payment-manager": "*",
-        "theaarch/game": "*"
-    }
+    ]
 }
