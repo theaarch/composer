@@ -24,11 +24,12 @@ jobs:
           tools: composer
 
       - name: Install Satis
-        run: composer global require composer/satis
+        run: composer create-project --keep-vcs --no-dev composer/satis:dev-main satis
 
       - name: Build Satis
         run: |
-          ~/.composer/vendor/bin/satis build composer.json public/ --no-interaction --verbose
+          cd satis
+          php bin/satis build ../satis.json ../public --no-interaction --verbose
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
