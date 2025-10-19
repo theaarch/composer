@@ -1,0 +1,16 @@
+{
+    "name": "theaarch/repository",
+    "homepage": "https://theaarch.github.io/composer",
+    "config": {
+        "sort-packages": true
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/theaarch/laravel-filter"
+        }
+    ],
+    "require": {
+        "theaarch/laravel-filter": "*"
+    }
+}
