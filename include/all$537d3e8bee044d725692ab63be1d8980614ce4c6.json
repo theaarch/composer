@@ -7,13 +7,13 @@
                 "version_normalized": "dev-main",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:theaarch/game-manager.git",
-                    "reference": "c860e96abd61c920ca1fd9f60b02a94c1b30602d"
+                    "url": "git@github.com:theaarch/laravel-game-manager.git",
+                    "reference": "cfa7a3a7b293fd6ab3ec706665d313404bf50e64"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/theaarch/game-manager/zipball/c860e96abd61c920ca1fd9f60b02a94c1b30602d",
-                    "reference": "c860e96abd61c920ca1fd9f60b02a94c1b30602d",
+                    "url": "https://api.github.com/repos/theaarch/laravel-game-manager/zipball/cfa7a3a7b293fd6ab3ec706665d313404bf50e64",
+                    "reference": "cfa7a3a7b293fd6ab3ec706665d313404bf50e64",
                     "shasum": ""
                 },
                 "require": {
@@ -30,7 +30,7 @@
                     "pestphp/pest": "^2.0|^3.0|^4.0",
                     "pestphp/pest-plugin-laravel": "^2.0|^3.0|^4.0"
                 },
-                "time": "2025-10-16T01:56:24+00:00",
+                "time": "2025-10-20T15:40:02+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -61,70 +61,12 @@
                     "game"
                 ],
                 "support": {
-                    "source": "https://github.com/theaarch/game-manager/tree/main",
-                    "issues": "https://github.com/theaarch/game-manager/issues"
+                    "source": "https://github.com/theaarch/laravel-game-manager/tree/main",
+                    "issues": "https://github.com/theaarch/laravel-game-manager/issues"
                 }
             }
         },
         "theaarch/laravel-payment-manager": {
-            "1.x-dev": {
-                "name": "theaarch/laravel-payment-manager",
-                "version": "1.x-dev",
-                "version_normalized": "1.9999999.9999999.9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:theaarch/laravel-payment-manager.git",
-                    "reference": "8c982a14187a49d7ae6e0a9963f82a41ce0d587c"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/theaarch/laravel-payment-manager/zipball/8c982a14187a49d7ae6e0a9963f82a41ce0d587c",
-                    "reference": "8c982a14187a49d7ae6e0a9963f82a41ce0d587c",
-                    "shasum": ""
-                },
-                "require": {
-                    "ext-json": "*",
-                    "illuminate/console": "^11.0|^12.0",
-                    "illuminate/contracts": "^11.0|^12.0",
-                    "illuminate/events": "^11.0|^12.0",
-                    "illuminate/http": "^11.0|^12.0",
-                    "illuminate/routing": "^11.0|^12.0",
-                    "illuminate/support": "^11.0|^12.0",
-                    "php": "^8.2.0"
-                },
-                "require-dev": {
-                    "laravel/pint": "^1.24",
-                    "orchestra/testbench": "^10.6",
-                    "pestphp/pest": "^4.0",
-                    "pestphp/pest-plugin-laravel": "^4.0"
-                },
-                "time": "2025-10-02T16:03:44+00:00",
-                "type": "library",
-                "extra": {
-                    "laravel": {
-                        "providers": [
-                            "Theaarch\\PaymentGateway\\PaymentGatewayServiceProvider"
-                        ],
-                        "aliases": {
-                            "PaymentGateway": "Theaarch\\PaymentGateway\\Facades\\PaymentGateway"
-                        }
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Theaarch\\PaymentGateway\\": "src/"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "Tests\\": "tests/"
-                    }
-                },
-                "support": {
-                    "source": "https://github.com/theaarch/laravel-payment-manager/tree/1.x",
-                    "issues": "https://github.com/theaarch/laravel-payment-manager/issues"
-                }
-            },
             "dev-main": {
                 "name": "theaarch/laravel-payment-manager",
                 "version": "dev-main",
@@ -132,12 +74,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:theaarch/laravel-payment-manager.git",
-                    "reference": "523966b8fe16f810c4e2ec5a592767ea8f32052f"
+                    "reference": "7e526c5a4a8e708d77e072f42fd2b58386936d1e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/theaarch/laravel-payment-manager/zipball/523966b8fe16f810c4e2ec5a592767ea8f32052f",
-                    "reference": "523966b8fe16f810c4e2ec5a592767ea8f32052f",
+                    "url": "https://api.github.com/repos/theaarch/laravel-payment-manager/zipball/7e526c5a4a8e708d77e072f42fd2b58386936d1e",
+                    "reference": "7e526c5a4a8e708d77e072f42fd2b58386936d1e",
                     "shasum": ""
                 },
                 "require": {
@@ -152,11 +94,12 @@
                 },
                 "require-dev": {
                     "laravel/pint": "^1.24",
+                    "mockery/mockery": "^1.6",
                     "orchestra/testbench": "^10.6",
                     "pestphp/pest": "^4.0",
                     "pestphp/pest-plugin-laravel": "^4.0"
                 },
-                "time": "2025-10-02T16:08:23+00:00",
+                "time": "2025-10-20T15:30:27+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {

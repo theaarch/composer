@@ -7,13 +7,13 @@
                 "version_normalized": "dev-main",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:theaarch/game-manager.git",
-                    "reference": "c860e96abd61c920ca1fd9f60b02a94c1b30602d"
+                    "url": "git@github.com:theaarch/laravel-game-manager.git",
+                    "reference": "cfa7a3a7b293fd6ab3ec706665d313404bf50e64"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/theaarch/game-manager/zipball/c860e96abd61c920ca1fd9f60b02a94c1b30602d",
-                    "reference": "c860e96abd61c920ca1fd9f60b02a94c1b30602d",
+                    "url": "https://api.github.com/repos/theaarch/laravel-game-manager/zipball/cfa7a3a7b293fd6ab3ec706665d313404bf50e64",
+                    "reference": "cfa7a3a7b293fd6ab3ec706665d313404bf50e64",
                     "shasum": ""
                 },
                 "require": {
@@ -30,7 +30,7 @@
                     "pestphp/pest": "^2.0|^3.0|^4.0",
                     "pestphp/pest-plugin-laravel": "^2.0|^3.0|^4.0"
                 },
-                "time": "2025-10-16T01:56:24+00:00",
+                "time": "2025-10-20T15:40:02+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -61,8 +61,8 @@
                     "game"
                 ],
                 "support": {
-                    "source": "https://github.com/theaarch/game-manager/tree/main",
-                    "issues": "https://github.com/theaarch/game-manager/issues"
+                    "source": "https://github.com/theaarch/laravel-game-manager/tree/main",
+                    "issues": "https://github.com/theaarch/laravel-game-manager/issues"
                 }
             }
         ]
