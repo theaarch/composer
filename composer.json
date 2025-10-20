@@ -11,7 +11,7 @@
         },
         {
             "type": "vcs",
-            "url": "git@github.com:theaarch/game-manager.git"
+            "url": "git@github.com:theaarch/laravel-game-manager.git"
         },
         {
             "type": "vcs",
