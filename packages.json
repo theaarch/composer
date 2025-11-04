@@ -1,14 +1,15 @@
 {
     "packages": [],
     "includes": {
-        "include/all$537d3e8bee044d725692ab63be1d8980614ce4c6.json": {
-            "sha1": "537d3e8bee044d725692ab63be1d8980614ce4c6"
+        "include/all$371b9f10e70503fda8a884f0a65dc58c5438c5ce.json": {
+            "sha1": "371b9f10e70503fda8a884f0a65dc58c5438c5ce"
         }
     },
     "metadata-url": "/composer/p2/%package%.json",
     "available-packages": [
         "theaarch/game",
         "theaarch/laravel-payment-manager",
-        "theaarch/laravel-sharding"
+        "theaarch/laravel-sharding",
+        "theaarch/tron-php"
     ]
 }

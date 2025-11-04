@@ -1,0 +1,41 @@
+{
+    "packages": {
+        "theaarch/tron-php": [
+            {
+                "name": "theaarch/tron-php",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:theaarch/tron-php.git",
+                    "reference": "5631c0514551111e956c7d694301641e6517a920"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/theaarch/tron-php/zipball/5631c0514551111e956c7d694301641e6517a920",
+                    "reference": "5631c0514551111e956c7d694301641e6517a920",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-bcmath": "*",
+                    "ext-gmp": "*",
+                    "kornrunner/keccak": "^1.1",
+                    "php": "^8.0",
+                    "simplito/elliptic-php": "^1.0"
+                },
+                "time": "2025-11-04T20:13:57+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Theaarch\\Tron\\": "src/"
+                    }
+                },
+                "support": {
+                    "source": "https://github.com/theaarch/tron-php/tree/main",
+                    "issues": "https://github.com/theaarch/tron-php/issues"
+                }
+            }
+        ]
+    }
+}
