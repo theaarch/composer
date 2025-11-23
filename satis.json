@@ -1,12 +1,6 @@
 {
     "name": "theaarch/composer",
     "homepage": "https://theaarch.github.io/composer",
-    "config": {
-        "sort-packages": true
-    },
-    "require-all": true,
-    "output-dir": "build",
-    "output-html": false,
     "repositories": [
         {
             "type": "vcs",
@@ -24,5 +18,11 @@
             "type": "vcs",
             "url": "git@github.com:theaarch/tron-php.git"
         }
-    ]
+    ],
+    "require-all": true,
+    "output-dir": "build",
+    "output-html": false,
+    "config": {
+        "sort-packages": true
+    }
 }
