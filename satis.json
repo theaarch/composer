@@ -21,8 +21,5 @@
     ],
     "require-all": true,
     "output-dir": "build",
-    "output-html": false,
-    "config": {
-        "sort-packages": true
-    }
+    "output-html": false
 }
