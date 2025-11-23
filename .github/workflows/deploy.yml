@@ -26,16 +26,15 @@ jobs:
       - name: Configure Composer auth
         run: composer config --global --auth github-oauth.github.com "${{ secrets.GH_FG_PAT }}"
 
-      - name: Install Satis
-        run: composer create-project --keep-vcs --no-dev composer/satis:dev-main satis
+      - name: Install Dependencies
+        run: composer install --no-interaction --prefer-dist --optimize-autoloader
 
       - name: Build Satis
         run: |
-          cd satis
-          php bin/satis build ../composer.json ../public --no-interaction --verbose
+          composer satis:build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          publish_dir: ./build

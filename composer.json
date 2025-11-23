@@ -1,25 +1,10 @@
 {
-    "name": "theaarch/composer",
-    "homepage": "https://theaarch.github.io/composer",
-    "config": {
-        "sort-packages": true
+    "require-dev": {
+        "composer/satis": "dev-main"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@github.com:theaarch/laravel-payment-manager.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@github.com:theaarch/laravel-game-manager.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@github.com:theaarch/laravel-sharding.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@github.com:theaarch/tron-php.git"
+    "config": {
+        "allow-plugins": {
+            "composer/satis": true
         }
-    ]
+    }
 }
