@@ -8,22 +8,22 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:theaarch/tron-php.git",
-                    "reference": "5631c0514551111e956c7d694301641e6517a920"
+                    "reference": "3077599bfb64d3eb389298349bdc744e87905a7c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/theaarch/tron-php/zipball/5631c0514551111e956c7d694301641e6517a920",
-                    "reference": "5631c0514551111e956c7d694301641e6517a920",
+                    "url": "https://api.github.com/repos/theaarch/tron-php/zipball/3077599bfb64d3eb389298349bdc744e87905a7c",
+                    "reference": "3077599bfb64d3eb389298349bdc744e87905a7c",
                     "shasum": ""
                 },
                 "require": {
                     "ext-bcmath": "*",
                     "ext-gmp": "*",
                     "kornrunner/keccak": "^1.1",
-                    "php": "^8.0",
+                    "php": "^7.4 || ^8.0",
                     "simplito/elliptic-php": "^1.0"
                 },
-                "time": "2025-11-04T20:13:57+00:00",
+                "time": "2025-11-05T12:43:16+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
