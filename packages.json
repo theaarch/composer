@@ -1,0 +1,15 @@
+{
+    "packages": [],
+    "includes": {
+        "include/all$2f3efa4b29b14df4938347743ed4c8797930e1b0.json": {
+            "sha1": "2f3efa4b29b14df4938347743ed4c8797930e1b0"
+        }
+    },
+    "metadata-url": "/composer/p2/%package%.json",
+    "available-packages": [
+        "theaarch/game",
+        "theaarch/laravel-payment-manager",
+        "theaarch/laravel-sharding",
+        "theaarch/tron-php"
+    ]
+}
