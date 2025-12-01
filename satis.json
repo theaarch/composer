@@ -21,5 +21,5 @@
     ],
     "require-all": true,
     "output-dir": "web",
-    "output-html": false
+    "output-html": true
 }
