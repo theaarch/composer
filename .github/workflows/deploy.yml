@@ -23,7 +23,7 @@ jobs:
           tools: composer
 
       - name: Configure Composer auth
-        run: composer config --global --auth github-oauth.github.com "${{ secrets.GH_FG_PAT }}"
+        run: composer config --global --auth github-oauth.github.com "${{ secrets.GH_PAT }}"
 
       - name: Install Composer dependencies
         run: composer install --no-interaction --prefer-dist --optimize-autoloader
