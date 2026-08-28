@@ -2,20 +2,9 @@
     "name": "theaarch/composer",
     "homepage": "https://theaarch.github.io/composer",
     "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@github.com:theaarch/laravel-payment-manager.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@github.com:theaarch/laravel-game-manager.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@github.com:theaarch/tron-php.git"
-        }
+
     ],
     "require-all": true,
-    "output-dir": "web",
+    "output-dir": "public",
     "output-html": true
 }
