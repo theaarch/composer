@@ -1,1 +1,1 @@
-# Deploy composer satis on Github pages
+# Deploy composer satis to Github pages
